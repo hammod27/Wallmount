@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript" src="../scripts/jquery-2.2.2.min.js"></script>
+        <script type="text/javascript" src="../scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="wallmount.js"></script>
+        <script type="text/javascript" src="moment.js"></script>
+        <link rel="stylesheet" href="../style/bootstrap.min.css">
+        <link rel="stylesheet" href="wallmount.css">
+    </head>
+    <title></title>
+    <body>
+		<div class="dateTime">
+				<div class="row row-centered">
+					<div class="time">
+					</div>
+				</div>
+				<div class="row row-centered">
+					<div class="date">
+					</div>
+				</div>
+			</div>
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-md-12 col-centered">
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hammondan1%40gmail.com&amp;color=%2329527A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FChicago" 
+							id="myCalendar"
+							style="border-width:0" 
+							width="800" 
+							height="600" 
+							frameborder="0" 
+							scrolling="no"></iframe>
+                </div>
+            </div>
+			<div class="row row-centered">
+				<h2>Old Town Weather</h2>
+				<h3>Today</h3>
+				<div>
+					<img id="currentWeatherImage" src="" alt="current weather image">
+					<div class="weatherHere"></div>
+				</div>
+			</div>
+			<div class="row row-centered outterForecast">
+				<div class="col-md-4 forecast">
+					<h3>Tomorrow</h3>
+					<div class="row">
+						<img id="tomorrowForecastImage" src="" alt="tomorrow weather image">
+						<div class="tomorrowForecast"></div>
+					</div>
+				</div>
+				<div class="col-md-4 forecast">
+					<h3 id="dayTwoTitle"></h3>
+					<div class="row">
+						<img id="dayTwoForecastImage" src="" alt="day two weather image">
+						<div class="dayTwoForecast"></div>
+					</div>
+				</div>
+				<div class="col-md-4 forecast">
+					<h3 id="dayThreeTitle"></h3>
+					<div class="row">
+						<img id="dayThreeForecastImage" src="" alt="day three weather image">
+						<div class="dayThreeForecast"></div>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div class="row row-centered">
+				<div class="col-md-4">
+					<h2>The <span class="brownLine">Brown</span> Line</h2>
+					<h4>Sedgwick Stop</h4>
+					<div class="col-md-6">
+						<h3>Loop</h3>
+						<div class="brownLineHereLeft"></div>
+					</div>
+					<div class="col-md-6">
+						<h3>Kimball</h3>
+						<div class="brownLineHereRight"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h2>The <span class="redLine">Red</span> Line</h2>
+					<h4>Clark/Division Stop</h4>
+					<div class="col-md-6">
+						<h3>95<span class="smallTh">th</span>/Dan Ryan</h3>
+						<div class="redLineHereLeft"></div>
+					</div>
+					<div class="col-md-6">
+						<h3>Howard</h3>
+						<div class="redLineHereRight"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h2>The 156 Bus</h2>
+					<br/><br/>
+					<h4>LaSalle & Burton</h4>
+					<div class="col-md-12">
+						<div class="156BusHere"></div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </body>
+</html>
