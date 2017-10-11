@@ -14,7 +14,7 @@ $(document).ready(function(){
     setInterval(function() {
         getBrownLineInformation();
         getRedLineInformation();
-    }, 60 * 1000);
+    }, 60 * 1000 + 100);
 
     //Bus info
     get156BusInformation();
