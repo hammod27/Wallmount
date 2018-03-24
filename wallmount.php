@@ -1,5 +1,6 @@
 <?php
 include 'env_var.php';
+// include cache files to access their variables
 include 'brownLineCache.php';
 include 'redLineCache.php';
 include 'busLineCache.php';

@@ -17,7 +17,9 @@ $(document).ready(function(){
     }, 60 * 1000 + 100);
 
     //Bus info
-    get156BusInformation();
+    setInterval(function() {
+        get156BusInformation();
+    }, 60 * 1000 + 100);
 
     //Weather info
     getWeatherInformation();

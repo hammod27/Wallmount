@@ -7,6 +7,10 @@
     float:none;
 }
 
+body {
+    background-color: #ECEFF1;
+}
+
 .outterTransit {
     width: 50%;
     margin: 0 auto;
@@ -30,7 +34,8 @@
 }
 
 .dateTime {
-    background-color: #66B9BF;
+    background-color: #263238;
+    color: #ECEFF1;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -49,7 +54,19 @@
     color: red;
     font-style: italic;
 }
-/*
-body{
-    background-color: black;    
-}*/
+
+.weather {
+    background-color: #CFD8DC;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 85px;
+}
+
+.transitInfo {
+    background-color: #B0BEC5;
+    padding: 10px;
+}
+
+.calendar {
+    margin-top: 85px;
+}
